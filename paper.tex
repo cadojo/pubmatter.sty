@@ -1,0 +1,18 @@
+\documentclass{article}
+
+\usepackage{pubmatter}
+
+\authordef{joey}{
+  literal={Joey Carpinelli},
+  affiliations={umd},
+}
+
+\affiliationdef{umd}{name={University of Maryland}}
+
+\begin{document}
+
+\section{Introduction}
+
+This is an introductory text by \authorname{joey}, who's almamater is \getaffiliationfield{\getauthorfield{joey}{affiliations}}{name}.
+
+\end{document}
